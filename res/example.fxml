@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.152">
+  <tabs>
+    <Tab text="Verwaltung">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="32.0" layoutY="76.0" text="Hasubesitzer" />
+                  <TextArea layoutX="32.0" layoutY="103.0" prefHeight="200.0" prefWidth="138.0" />
+                  <RadioButton layoutX="32.0" layoutY="24.0" mnemonicParsing="false" text="RadioButton" />
+                  <RadioButton layoutX="32.0" layoutY="48.0" mnemonicParsing="false" text="RadioButton" />
+                  <TextArea layoutX="210.0" layoutY="103.0" prefHeight="200.0" prefWidth="138.0" />
+                  <Label layoutX="210.0" layoutY="76.0" text="Immobilie" />
+                  <Button layoutX="32.0" layoutY="316.0" mnemonicParsing="false" text="Auflisten" />
+                  <Button layoutX="211.0" layoutY="316.0" mnemonicParsing="false" text="Auflisten" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Untitled Tab 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+      <Tab text="Untitled Tab 2">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>
