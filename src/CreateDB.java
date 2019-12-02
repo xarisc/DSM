@@ -25,7 +25,7 @@ public class CreateDB {
 
     public CreateDB() {
         createConnection();
-        createDBStructure();
+        createDBStructure(dbName, tableName1, tableName2);
         Thread shutDownHook = new Thread() {
             public void run() {
                 System.out.println("Running shutdown hook");
