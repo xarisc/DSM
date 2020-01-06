@@ -1,0 +1,52 @@
+# DSM<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<owner_immo>
+	<owner firstname="Maria" id="0" lastname="Mustermann"/>
+	<owner firstname="Max" id="1" lastname="Mustermann"/>
+	<owner firstname="Der" id="2" lastname="Patient"/>
+
+	<immo>
+		<owner_id>1</owner_id>
+		<id>2</id>
+		<art>Schule</art>
+		<str>Am Schulgrund</str>
+		<hsnr>2</hsnr>
+		<plz>22222</plz>
+		<ort>Schulung</ort>
+	</immo>
+	<immo>
+		<owner_id>1</owner_id>
+		<id>3</id>
+		<art>Haus am See</art>
+		<str>Am See</str>
+		<hsnr>3</hsnr>
+		<plz>33333</plz>
+		<ort>Seen</ort>
+	</immo>
+	<immo>
+		<owner_id>0</owner_id>
+		<id>0</id>
+		<art>Grundstücke</art>
+		<str>Am Grund</str>
+		<hsnr>0</hsnr>
+		<plz>00000</plz>
+		<ort>Grundig</ort>
+	</immo>
+	<immo>
+		<owner_id>0</owner_id>
+		<id>1</id>
+		<art>Wohnhaus</art>
+		<str>Am Wohnen</str>
+		<hsnr>1</hsnr>
+		<plz>11111</plz>
+		<ort>Wohningen</ort>
+	</immo>
+	<immo>
+		<owner_id>2</owner_id>
+		<id>4</id>
+		<art>Wassergrundstück</art>
+		<str>Am Wasser</str>
+		<hsnr>4</hsnr>
+		<plz>44444</plz>
+		<ort>Was</ort>
+	</immo>
+</owner_immo>
